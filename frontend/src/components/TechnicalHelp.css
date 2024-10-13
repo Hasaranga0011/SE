@@ -1,0 +1,113 @@
+/* Main container styling */
+.technical {
+  padding: 20px;
+  background: linear-gradient(135deg, #f0fff4 0%, #e6f7ff 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideInFromBottom 0.5s ease-in-out;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title styling */
+.title {
+  color: #1b5e20;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Intro and closing paragraph styling */
+.intro, .closing {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Contact information list styling */
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact list item styling */
+.contact-info li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #333;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for contact list items */
+.contact-info li:hover {
+  transform: translateX(10px);
+}
+
+/* Icon styling */
+.icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: #1b5e20;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for icons */
+.contact-info li:hover .icon {
+  color: #0d47a1;
+}
+
+/* Anchor link styling */
+a {
+  color: #0d47a1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for anchor links */
+a:hover {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+/* Keyframe animation for sliding in from the bottom */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .technical {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  .intro, .closing {
+    font-size: 0.9em;
+  }
+
+  .contact-info li {
+    font-size: 1em;
+  }
+
+  .icon {
+    font-size: 1.3em;
+  }
+}

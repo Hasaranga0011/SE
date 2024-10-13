@@ -1,0 +1,68 @@
+/* AddSupplierDetails.css */
+.add-supplier-container {
+    padding: 20px;
+    background-color: #f5f7fa;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .supplier-form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .loading-button,
+  .update-button,
+  .delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loading-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .update-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .loading-button:hover,
+  .update-button:hover,
+  .delete-button:hover {
+    opacity: 0.9;
+  }
+  

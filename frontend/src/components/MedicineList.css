@@ -1,0 +1,280 @@
+/* General Container */
+.medicine-list-container {
+  padding: 20px;
+  background-color: #f4f7fa;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+.header {
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.header p {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+/* Top Bar for Search */
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Medicine List Table */
+.medicine-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-list-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.medicine-list-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ecf0f1;
+  font-size: 14px;
+  color: #34495e;
+}
+
+.medicine-list-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* View Button */
+.view-button {
+  padding: 8px 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+  background-color: #2ecc71;
+}
+
+/* Medicine Detail View */
+.medicine-detail-view {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-detail-view h3 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 22px;
+  color: #2980b9;
+}
+
+/* Edit and Delete Buttons */
+.edit-button,
+.delete-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-right: 20px; /* Adds space between the buttons */
+}
+
+.edit-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #2980b9;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Medicine Details */
+.medicine-details {
+  margin-top: 20px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.medicine-detail-item {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+/* Edit Form */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ecf0f1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensures it takes full width of the container */
+  
+}
+
+
+/* Button Container */
+.edit-form-buttons {
+  display: flex; /* Aligns buttons horizontally */
+  gap: 20px; /* Adds space between the buttons */
+  margin-top: 20px; /* Adds space above the button container */
+}
+
+/* Individual Buttons */
+.edit-form-buttons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Save Button */
+.edit-form-buttons button[type="submit"] {
+  background-color: #27ae60;
+  color: white;
+}
+
+.edit-form-buttons button[type="submit"]:hover {
+  background-color: #2ecc71;
+}
+
+/* Cancel Button */
+.edit-form-buttons button[type="button"] {
+  background-color: #f40925;
+  color: white;
+}
+
+.edit-form-buttons button[type="button"]:hover {
+  background-color: #d11717;
+}
+
+
+.edit-form h4 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 18px;
+  
+}
+
+.edit-form label {
+  font-size: 14px;
+  color: #34495e;
+  margin-bottom: 5px; 
+}
+
+.edit-form input,
+.edit-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #2c3e50;
+  width: 100%; /* Makes input fields full width */
+  
+}
+
+.edit-form textarea {
+  height: 100px; /* Set height for textarea */
+  resize: vertical; /* Allow vertical resizing only */
+  margin-right: 10px;
+  
+}
+
+/* Save and Cancel Buttons */
+.save-button,
+.cancel-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Adds space between the save and cancel buttons */
+  
+}
+
+.save-button {
+  background-color: #27ae60;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #2ecc71;
+}
+
+.cancel-button {
+  background-color: #bdc3c7;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #95a5a6;
+}

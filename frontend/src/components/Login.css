@@ -1,0 +1,35 @@
+/*
+.loginPage {
+    background-image: url ('C:\Users\ASUS\Desktop\Union\frontend\public\images\high-angle-medical-items-arrangement.jpg');
+    background: linear-gradient(rgba(11,11,11,0.5), rgba(10,10,10,0.5)),url ('C:\Users\ASUS\Desktop\Union\frontend\public\images\high-angle-medical-items-arrangement.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+
+
+}
+.loginForm{
+    background-color: rgba(1,32,93,0.6);
+    color: white;
+}
+*/
+.loginPage {
+    /* Use a relative path from the public directory */
+    background-image: url('/images/high-angle-medical-items-arrangement.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(10, 10, 10, 0.5)), url('/images/high-angle-medical-items-arrangement.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(40, 79, 145, 0.6);
+    color: white;
+}
+.loginForm h2 {
+    color: #ecebe4; /* Bright yellow for visibility */
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}

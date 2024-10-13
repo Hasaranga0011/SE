@@ -1,0 +1,177 @@
+/* Container and Header Styling */
+.supplier-container {
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+
+.supplier-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.supplier-header p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Supplier Content Layout */
+.supplier-content {
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  align-items: flex-start;
+}
+
+.supplier-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.supplier-card .card-icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.supplier-card .card-info h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.supplier-card .card-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.view-list-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #eaf4ff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.view-list-button .arrow {
+  margin-left: 5px;
+}
+
+/* Add Supplier Button Styling */
+.add-supplier-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px; /* Add margin to separate from card */
+}
+
+.add-supplier-button i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Add hover effect for buttons */
+.view-list-button:hover,
+.add-supplier-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Add styles for the supplier table */
+.supplier-table-container {
+  width: 100%;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.supplier-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.supplier-table th, .supplier-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.supplier-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.supplier-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+/* Add some basic styling for the modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+.close-modal-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close-modal-button:hover {
+  background-color: darkred;
+}
